@@ -1,0 +1,26 @@
+{
+  "name": "gocmeniz-auth",
+  "version": "1.0.0",
+  "description": "Auth microservice",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "es6-promisify": "^5.0.0",
+    "es6-promisify-all": "^0.1.0",
+    "md5": "^2.2.1",
+    "mongoose": "^4.12.1",
+    "passport-local-mongoose": "^4.2.1",
+    "ramda": "^0.25.0",
+    "redis": "^2.8.0",
+    "uuid": "^3.1.0"
+  },
+  "devDependencies": {
+    "supertest": "^3.0.0",
+    "unexpected": "^10.36.0",
+    "unexpected-express": "^10.0.0"
+  }
+}
